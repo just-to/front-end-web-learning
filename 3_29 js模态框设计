@@ -21,14 +21,14 @@
 
 <body>
 	<div>
-		<input type="button" value="添加" onclick="ShowModel();"/>
+		<input type="button" value="脤铆录脫" onclick="ShowModel();"/>
 	</div>
 	
 
 	<div id="c2" class="c2 hide">
 		<p>
-			<input type="button" value="确定"/>
-			<input type="button" value="取消"/>
+			<input type="button" value="脠路露篓"/>
+			<input type="button" value="脠隆脧没"/>
 		</p>
 	</div>
 
