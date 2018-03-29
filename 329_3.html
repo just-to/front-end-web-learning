@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.hide{
+		display:none;	
+}
+	.c2{
+		width:500px;
+		height:400px;
+		background-color:black;
+		position:fixed;
+		left:50%;
+		top:50%;
+		margin-left:-250px;
+		margin-top:-200px;
+		z-index:10;
+}
+</style>
+</head>
+
+<body>
+	<div>
+		<input type="button" value="添加" onclick="ShowModel();"/>
+	</div>
+	
+
+	<div id="c2" class="c2 hide">
+		<p>
+			<input type="button" value="确定"/>
+			<input type="button" value="取消"/>
+		</p>
+	</div>
+
+	<script>
+		function ShowModel(){
+			document.getElementById('c2').style.display="block";
+		}
+	</script>
+</body>
+
+
+</html>
